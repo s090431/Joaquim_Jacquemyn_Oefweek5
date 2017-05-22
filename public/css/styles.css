@@ -1,0 +1,150 @@
+body {
+  font-family: futura;
+  width: 90%;
+  margin: 25px auto;
+  line-height: 1.4em;
+  font-size: 16px;
+  background: white;
+  color: black;
+
+}
+
+section {
+  margin: 25px 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-family: helvetica;
+  margin: 10px 0;
+  font-size: 0.8em;
+}
+
+.datum{color: lightgrey;}
+
+h2 {
+  margin: 25px 0;
+}
+
+h3 {
+  display: inline;
+}
+
+nav {
+  margin: 25px 0;
+}
+
+nav a {
+  display: inline-block;
+  margin-right: 5px;
+  text-decoration: none;
+  background: lightgrey;
+  color: white;
+  font-weight: bold;
+  font-size: 0.6em;
+  padding: 5px;
+}
+
+nav a:hover{
+  background: black;
+}
+
+nav a:focus{
+  background: black;
+}
+
+.news{
+  font-weight: bold;
+  margin:0;
+  position: relative;
+  display: inline-block;
+  letter-spacing: 5px;
+  padding: 0px 30px 0px 0px;
+  line-height: 1.2;
+}
+
+.news:after{
+  background: black;
+  content:"";
+  display: block;
+  height: 6px;
+  position: absolute;
+  top: 50%;
+  margin-top: -3px;
+  left:100%;
+  width: 260px;
+}
+
+.logo{
+  margin-bottom: 30px;
+}
+
+.post{
+  position: relative;
+}
+
+.post_title{
+  position: absolute;
+  color: white;
+  bottom:-20px;
+  padding: 10px;
+  background: rgba(0,0,0,0.5);
+  border-left: 5px solid lightgrey;
+}
+
+.item_title{text-decoration: none;color:white;font-size: 0.8em;}
+
+.item_title:hover{text-shadow: 0px 0px 10px white;}
+
+.item_title:focus{text-shadow: 0px 0px 10px white;}
+
+.categorie{
+  background: lightgrey;
+  color: white;
+  font-weight: bold;
+  font-size: 0.6em;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.categorie2{
+  display: inline-block;
+  margin-right: 5px;
+  text-decoration: none;
+  background: lightgrey;
+  color: white;
+  font-weight: bold;
+  font-size: 0.6em;
+  padding: 5px;
+}
+
+.categorie2:hover {
+  background: black;
+}
+
+.categorie2:focus {
+  background: black;
+}
+
+section{
+  padding-bottom: 20px;
+}
+
+.title{
+  border-left: 5px solid lightgrey;
+  padding: 10px;
+}
+
+.footer{
+  display: block;
+  text-decoration: none;
+  background: lightgrey;
+  color: white;
+  font-weight: bold;
+  font-size: 0.8em;
+  padding: 5px;
+  border-left: 5px solid black;
+}

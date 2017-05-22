@@ -1,0 +1,25 @@
+<% include header %>
+
+
+<a href="/"><img src="/img/logo.png" alt="YOUREDM"></a>
+<section>
+
+  <h2 class="title">
+    <%- item.titel %>
+  </h2>
+  <img src="/img/<%- item.afbeeldingl %>" alt="<%- item.titel %>">
+
+
+    <p class="datum"><%- item.datum %></p>
+
+    <p>
+      <%- item.body %>
+    </p>
+
+
+      <% for (var i = 0; i < item.categorieen.length; i++) { %>
+        <a class='categorie2' href="/categorieen/<%- i %>"><%- item.categorieen[i] %></a>
+      <% } %>
+</section>
+
+<% include footer %>

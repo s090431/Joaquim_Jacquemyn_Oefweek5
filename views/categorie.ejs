@@ -1,0 +1,25 @@
+<% include header %>
+
+<a href="/"><img src="/img/logo.png" alt="YOUREDM"></a>
+
+<h2 class="categorie"><%- categorieen[id] %></h2>
+
+  <% for (var i = 0; i < items.length; i++) { %>
+    <% if (items[i].categorieen.indexOf(categorieen[id]) !== -1) { %>
+      <section>
+        <div class="post">
+          <h2 class="post_title">
+            <a class="item_title" href=/items/<%- items[i].id %>><%- items[i].titel %></a>
+          </h2>
+          <img src="/img/<%- items[i].afbeeldings %>" alt="<%- items[i].titel %>">
+        </div>
+          <p class="datum"><%- items[i].datum %></p>
+
+          <p>
+            <%- items[i].samenvatting %>
+          </p>
+      </section>
+    <% } %>
+  <% } %>
+
+<% include footer %>
